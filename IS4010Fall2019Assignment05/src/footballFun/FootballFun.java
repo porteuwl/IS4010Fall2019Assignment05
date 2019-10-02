@@ -1,8 +1,11 @@
 /*
- * IS4010 Fal 2019
+ * IS4010 Fall 2019
  * Assignment 05
- * Bill Nicholson
- * nicholdw@ucmail.uc.edu
+ * Luke Porteus
+ * porteuwl@ucmail.uc.edu
+ * Due Date: 10/03/19 @ 8:00 AM
+ * Description: Write a method called translateScore that takes a football score and
+ * returns a string describing that score.
  */
 package footballFun;
 
@@ -28,21 +31,21 @@ public class FootballFun {
 	public static String translateScore (int score) {
 			
 		if(score == 2) {
-		System.out.println("safety");}
+			return ("safety");}
 		else if (score == 3) {
-			System.out.println("field goal");}
+			return("field goal");}
 		else if (score == 6) {
-			System.out.println("touchdown");}
+			return ("touchdown");}
 		else if (score == 7) {
-			System.out.println("Touchdown and extra point");}
+			return ("touchdown and extra point");}
 		else if (score == 8) {
-			System.out.println("Touchdown and 2-point conversion");}
+			return ("touchdown and 2-point conversion");}
 		else if (score == -1) {
-			System.out.println("");}
+			return ("");}
 		else if (score == 1) {
-			System.out.println("invalid");}
+			return ("invalid");}
 		else if (score == 10) {
-			System.out.println("you must be playing Quidditch");}
+			return ("you must be playing Quidditch ");}
 				
 		return "";
 	}
